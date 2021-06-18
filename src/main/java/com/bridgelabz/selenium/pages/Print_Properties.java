@@ -1,6 +1,5 @@
 package com.bridgelabz.selenium.pages;
 
-import com.bridgelabz.selenium.utility.utility;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -10,8 +9,6 @@ import java.util.*;
 
 public class Print_Properties {
     public static LinkedList<String> properties = new LinkedList<>();
-    public static LinkedList<String> prices = new LinkedList<>();
-    public static HashMap<String, String> Hashmap = new HashMap<>();
 
     @FindBy(xpath = "//a[@data-testid = 'listing-details-link']")
     List<WebElement> Name;
