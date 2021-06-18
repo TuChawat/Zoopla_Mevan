@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default Suite]">
+  <test thread-count="5" name="Zoopla_Mevan(failed)">
+    <classes>
+      <class name="com.bridgelabz.selenium.ZooplaTest">
+        <methods>
+          <include name="endTest"/>
+          <include name="setup"/>
+          <include name="loginZoopla"/>
+          <include name="searchCity"/>
+        </methods>
+      </class> <!-- com.bridgelabz.selenium.ZooplaTest -->
+    </classes>
+  </test> <!-- Zoopla_Mevan(failed) -->
+</suite> <!-- Failed suite [Default Suite] -->
